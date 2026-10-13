@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="panel">
+    <h1>Mission Tracker</h1>
+    <p class="count">Total missions: <span id="missionCount">0</span></p>
+
+    <div class="add-row">
+      <input type="text" id="missionInput" placeholder="Enter a new mission" aria-label="Mission name">
+      <button id="addBtn">Add Mission</button>
+    </div>
+    <p id="message" class="message"></p>
+
+    <ul id="missionList"></ul>
+
+    <button id="colourBtn" class="secondary">Change Colour</button>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
